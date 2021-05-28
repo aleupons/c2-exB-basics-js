@@ -128,9 +128,16 @@ function sueldoMedioEmpresa(empresas, nombreEmpresa) {
 }
 console.log(empresas);
 const nombreEmpresa = "ettmàfia";
+const nombreEmpresa2 = "mierdaset";
 console.log(
-  `El sou mig de l'empresa ${nombreEmpresa} és de ${sueldoMedioEmpresa(
+  `El sou mig de les persones de més de 30 anys de l'empresa ${nombreEmpresa} és de ${sueldoMedioEmpresa(
     empresas,
     nombreEmpresa
+  )}€ anuals`
+);
+console.log(
+  `El sou mig de les persones de més de 30 anys de l'empresa ${nombreEmpresa2} és de ${sueldoMedioEmpresa(
+    empresas,
+    nombreEmpresa2
   )}€ anuals`
 );
