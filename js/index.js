@@ -1,5 +1,6 @@
 const palabras = ["al", "ajsfgao", "ajgdoafg", "a l", "joel joan"];
 const indice = 2;
+console.log(`Paraules: ${palabras}`);
 
 /* 1 */
 function cuantasPalabrasMayoresA(palabras, indice) {
